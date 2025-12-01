@@ -36,8 +36,18 @@ body {
 .btn-primary:hover {
   background-color: var(--dark);
 }
+
+.radius {
+  border-radius: var(--radius);
+}
 .btn-danger {
 }
 
 .btn-success {
+}
+
+input {
+  border: var(--border);
+  border-radius: 6px;
+  padding: 12px;
 }

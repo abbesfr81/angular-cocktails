@@ -10,6 +10,17 @@
   flex-direction: column;
 }
 
+.xs-flex-column {
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+}
+
+.xs-w-full {
+  @media screen and (max-width: 820px) {
+    width: 100%;
+  }
+}
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -64,4 +75,13 @@ align-items-center {
 
 .w-half {
   width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.my-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
