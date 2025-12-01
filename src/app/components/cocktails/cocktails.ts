@@ -20,6 +20,7 @@ import { cocktails } from '../../shared';
     
     :host {
       display: flex;
+      flex-direction: row;
       padding: 24px;
       gap: 24px;
     }
@@ -35,7 +36,7 @@ import { cocktails } from '../../shared';
         flex-direction: column;
       }
       :host > * {
-        flex: 0 0 100%;
+        flex: 1 1 100%;
         max-width: 100%;
         width: 100%;
       }

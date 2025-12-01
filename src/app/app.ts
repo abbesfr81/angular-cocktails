@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 
-import { Header } from './components/header';
+import { Header } from './components/header/header';
 import { Footer } from './components/footer';
 import { CocktailDetails } from './components/cocktails/components/cocktail-details';
 import { Cocktails } from './components/cocktails/cocktails';
